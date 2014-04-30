@@ -1,0 +1,318 @@
+/* Colors
+ * Gold #c59f4a
+ * Black / White
+ * Fonts Adam / Arial 
+ * */
+
+
+@font-face
+{
+font-family: adam;
+src: url(fonts/ADAM.otf);
+}
+
+@font-face
+{
+font-family: geo;
+src: url(fonts/GeosansLight.ttf);
+}
+
+.intro {
+	text-align: center;
+}
+h1 {
+	font-family: adam;
+}
+
+a {
+	color:#c59f4a;
+}
+h3 {
+	color: black;
+	font-family: geo;
+}
+p {
+	font-family: adam;
+	color: white;
+}
+
+
+.black {
+	color:black;
+}
+
+.white  {
+	color:white;
+}
+
+.gold {
+	color: #c59f4a;
+	font-family:adam;
+	
+}
+.introphoto {
+	max-width:50%;
+	float:right;
+}
+/* MAPS STYLES */
+ 
+ html {
+	height: 100%
+	}
+ body {
+	height: 100%;
+	margin: 0;
+	padding: 0
+	}
+ #map-canvas {
+
+	height: 50%;
+	width:90%;
+	margin-right:50px;
+	margin-left:50px;
+	margin-bottom:20px;
+	
+
+	}
+	
+	
+
+/*Adding background for the slides
+	* --------------------------------------- */
+	#slide1{
+		background-image: url(imgs/bg1.jpg);
+		padding: 6% 0 0 0;
+	}
+	#slide2{
+		background-image: url(imgs/bg2.jpg);
+		padding: 6% 0 0 0;
+	}
+	
+	#section0{
+		background-image: url(imgs/justintimberlakebg.png);
+		padding: 6% 0 0 0;
+	}
+
+	#section1{
+		background-color: black;
+
+
+	}
+		#section2{
+		background-color: black;
+
+	}
+			#section1 h1{
+		margin-bottom:10px;
+
+	}
+		#section3{
+		background-color: black;
+
+	}
+
+	#section4 {
+		background-color: black;
+	
+	}
+
+
+.footer {
+	font-family:geo;
+	text-align:left;
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:10%;
+	border-top: 1px solid white;
+	padding-top: 1%;
+}
+
+/* Tweet style
+ */
+ .tweet {
+	font-family:geo;
+	color:white;
+	font-size:0.8em;
+	text-align: left;
+
+}
+
+.tweetname a{
+	color:white;
+	text-align:left;
+
+}
+
+.floatleft {
+	float:left;
+	margin-left:10em;
+	margin-top: 1em;
+}
+
+
+/* tables style
+ */
+
+.tablestyle {
+	margin-bottom:10px;
+	margin-right:50px;
+	margin-left:50px;
+}
+
+/* Youtube Gallery style */
+
+        
+.videogallery {
+		margin-left:20%;
+		margin-right:20%;
+		margin-top:30px;
+		border: 3px solid #c59f4a;
+		border-radius:15px;
+		padding:20px;
+		font-size:1.5em;
+			
+
+	}
+/*Social media icons */
+
+.social-icons {
+	padding: 0!important;
+	margin-left: 40%;
+	list-style-type: none!important;
+float:left;
+}
+.social-icons li{
+	float: left!important;
+	margin-right: 2px!important;
+	margin-bottom: 2px!important;
+	padding: 0px!important;
+	display: inline!important;
+	width: auto!important;
+
+}			
+.social-icons li a {
+	-moz-transition: all 0.3s ease 0s;
+	display: block!important;
+	float: right!important;
+	height: 100%!important;
+	padding: 0!important;
+	width: 40px!important;
+	height: 40px!important;
+	text-indent: -9999px!important;
+	text-align:center!important;
+}
+.social-icons li a:hover {
+	background-position: 0 -40px!important;
+}
+.social-icons li a {
+	background-color:transparent;
+}
+.social-icons li.facebook a {
+	background: url(images/facebook.png) no-repeat 0 0;
+}
+.social-icons li.facebook a:hover {
+	background-color: #3b5998;
+}
+
+.social-icons li.googleplus a {
+	background: url(images/googleplus.png) no-repeat 0 0;
+}
+.social-icons li.googleplus a:hover {
+	background-color: #d94a39;
+}
+
+.social-icons li.twitter a {
+	background: url(images/twitter.png) no-repeat 0 0;
+}
+.social-icons li.twitter a:hover {
+	background-color: #48c4d2;
+}
+
+.social-icons li.youtube a {
+	background: url(images/youtube.png) no-repeat 0 0;
+}
+.social-icons li.youtube a:hover {
+	background-color: #f45750;
+}
+
+/* tiny scrollbar */
+
+#scrollbar1
+{
+    width:70%;
+    margin:20px auto 10px;
+    position: relative;
+}
+
+#scrollbar1 .viewport
+{
+    height: 500px;
+    overflow:hidden;
+    position:relative;
+        border-radius:15px;
+        border: 3px solid #c59f4a;
+
+}
+
+#scrollbar1 .overview
+{
+    list-style:none;
+    position:absolute;
+    left:0;
+    top:0;
+    margin:0;
+    padding: 10px 20px;
+}
+
+#scrollbar1 .scrollbar
+{
+    background:transparent url(images/bg-scrollbar-track-y.png) no-repeat 0 0;
+    position:absolute;
+    background-position:0 0;
+    right: -20px;
+    top:0;
+    width:15px;
+}
+
+#scrollbar1 .track
+{
+    background:transparent url(images/bg-scrollbar-trackend-y.png) no-repeat 0 100%;
+    height:100%;
+    width:13px;
+    position:relative;
+    padding:0 1px;
+}
+
+#scrollbar1 .thumb
+{
+    background:transparent url(images/bg-scrollbar-thumb-y.png) no-repeat 50% 100%;
+    height:20px;
+    width:25px;
+    cursor:pointer;
+    overflow:hidden;
+    position:absolute;
+    top:0;
+    left:-5px;
+}
+
+#scrollbar1 .thumb .end
+{
+    background:transparent url(images/bg-scrollbar-thumb-y.png) no-repeat 50% 0;
+    overflow:hidden;
+    height:5px;
+    width:25px;
+}
+
+#scrollbar1 .disable
+{
+    display:none;
+}
+
+.noSelect
+{
+    user-select:none;
+    -o-user-select:none;
+    -moz-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-select:none;
+}
